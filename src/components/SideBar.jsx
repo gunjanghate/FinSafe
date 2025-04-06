@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { NavLink, useLoaderData, useSubmit, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-//components
+
 import { ExtendedFab } from './Button';
 import Logo from './Logo';
 import { IconBtn } from './Button';
@@ -36,13 +36,7 @@ const submit = useSubmit();
       to='/'
       className={`min-w-max max-w-max h-[24px] text-3xl tracking-tighter font-extrabold`}
     >
-      {/* <img
-        src={logoLight}
-        width={133}
-        height={24}
-        alt='Sarvam4All Logo'
-        className='dark:hidden'
-      /> */}
+
       Athelete<span className='text-blue-400'>360</span>
     </Link>
           </div>

@@ -48,6 +48,7 @@ const TopAppBar = ({toggleSidebar}) => {
             classes='lg:hidden'
             onClick={toggleSidebar}
             />
+        
 
             <Logo classes='lg:hidden'/>
             
